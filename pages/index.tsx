@@ -1,3 +1,4 @@
+import { Box } from "@chakra-ui/react";
 import Head from "next/head";
 
 export default function Home() {
@@ -7,7 +8,9 @@ export default function Home() {
         <title>QuizApp</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main></main>
+      <main>
+        <Box>Hello</Box>
+      </main>
       <footer></footer>
     </div>
   );
